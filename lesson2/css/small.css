@@ -15,8 +15,12 @@ body {
     color: #000000;
 }
 
-a {
-    color: rgb(69, 143, 61);
+section a {
+    color: rgb(0, 28, 189);
+}
+
+footer a {
+    color: rgb(76, 189, 0);
 }
 
 h1,
