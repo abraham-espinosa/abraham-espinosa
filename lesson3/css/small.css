@@ -1,0 +1,110 @@
+/*-----------------------------------------
+General
+-----------------------------------------*/
+body {
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    color: #000000;
+}
+
+h1,
+h2,
+h3,
+h4, nav a {
+    font-family: 'Ramabhadra', sans-serif;
+}
+
+/*-----------------------------------------
+Header & Footer
+-----------------------------------------*/
+
+header,
+footer {
+    background-color: #283845;
+    color: #ffffff;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    width: 60px;
+    height: auto;
+    margin-right: 20px;
+}
+
+footer a {
+    color: rgb(76, 189, 0);
+}
+
+/*-----------------------------------------
+Navegation Menu
+-----------------------------------------*/
+
+nav{
+    background-color: #006400;
+    text-align: center;
+    border-radius: 0 0 5px 5px;
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    padding: .55rem;
+    font-size: .95rem;
+}
+
+nav ul li a:hover{
+    background-color: #bbb;
+    color: #000000;
+    border-radius: 5px 5px 5px 5px;
+}
+
+/*-----------------------------------------
+Main
+-----------------------------------------*/
+
+section{
+    padding: 1rem;
+    margin: 20px;
+    box-shadow: 0 2px 15px rgb(192, 192, 192);
+    border-radius: 5px 5px 5px 5px;
+}
+
+section a {
+    color: rgb(0, 28, 189);
+}
+
+.full-image{
+    height: auto;
+    width: 100%;
+    
+}
+
+section img{
+    height: auto;
+    width: 20%;
+    border-radius: 8px 8px 8px 8px;
+}
+
+
+
+
+
+
+
+
+
