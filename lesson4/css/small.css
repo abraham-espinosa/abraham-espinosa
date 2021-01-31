@@ -1,0 +1,148 @@
+/*-----------------------------------------
+General
+-----------------------------------------*/
+body {
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    max-width: 100%;
+    margin: 0 auto;
+    color: #000000;
+}
+
+h1,
+h2,
+h3,
+h4, nav a {
+    font-family: 'Ramabhadra', sans-serif;
+}
+
+/*-----------------------------------------
+Header & Footer
+-----------------------------------------*/
+
+header,
+footer {
+    background-color: #283845;
+    color: #ffffff;
+}
+
+/*header*/
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:  10px 0;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+}
+
+header img {
+    width: 60px;
+    height: auto;
+}
+
+.headings h1{
+    margin: 0 0 0 20px;
+}
+
+.phrase {
+    font-style: italic;
+    letter-spacing: 1pt;
+    margin-left: 20px;
+	font-size: .9rem;
+}
+
+/*footer*/
+
+footer a {
+    color: rgb(76, 189, 0);
+}
+
+footer {
+    padding: 15px;
+    margin: 15px;
+}
+
+
+
+footer p {
+    margin: 0;
+}
+
+/*-----------------------------------------
+Navegation Menu
+-----------------------------------------*/
+
+nav{
+    background-color: #006400;
+    border-radius: 0 0 2px 2px;
+    margin: 0 auto;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+}
+
+ul.navigation {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li{
+    display: none;
+}
+
+.navigation a{
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0.60rem;
+    font-size: .95rem;
+    text-align: left;
+}
+
+.navigation a:hover{
+    background-color: #bbb;
+    color: #000000;
+    border-radius: 2px 2px 2px 2px;
+}
+
+a.active{
+    color: rgb(255, 192, 19);
+}
+
+.responsive li {
+	display: block;
+}
+
+/*-----------------------------------------
+Main
+-----------------------------------------*/
+
+
+main p {
+    background-color: #ccc9c9;
+    padding: 10px;
+    border: solid black 1px;
+}
+
+main{
+    padding:0 1rem;
+}
+
+
+
+
+
+
+
+
