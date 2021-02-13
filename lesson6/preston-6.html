@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Preston | Tell me Weather</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Weather Forecast Web Site - Web Frontend Development at BYU-I" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+<body>
+    <div id="banner">Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</div>
+    <header>
+        <picture>
+            <img src="images/logo.png" alt="logo-cloud-weather" />
+        </picture>
+        <section class="headings">
+            <h1>Tell me Weather</h1>
+            <p class="phrase">Always giving you perfect forcasts</p>
+        </section>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#">&#9776; Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a class="active" href="preston-5.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Preston Idaho</h2>
+        <div class="hero">
+            <picture class="hero">
+                <source srcset="images/smallSky.jpg" media="(max-width: 500px)">
+                <source srcset="images/mediumSky.jpg" media="(max-width: 800px)">
+                <source srcset="images/largeSky.jpg" media="(max-width: 1100px)">
+                <img src="images/largeSky.jpg" alt="preston">
+            </picture>
+            <div class="weather-summary">
+                <h3>Weather Summary</h3>
+                <p>Currently: <span>Sunny</span></p>
+                <p>High: <span id="temp">49</span></p>
+                <p>Wind Chill: <span id="windchill"></span></p>
+                <p>Huminity: <span>69%</span></p>
+                <p>Wind Speed: <span id="windspeed">12</span></p>
+            </div>
+        </div>
+        <article class="forecast">
+            <h2>5 Day Forecast</h2>
+            <table>
+                <tr>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                    <th>Sunday</th>
+                </tr>
+                <tr>
+                    <td><img src="images/sun.png" alt="sun"></td>
+                    <td><img src="images/sun.png" alt="sun"></td>
+                    <td><img src="images/sun.png" alt="sun"></td>
+                    <td><img src="images/sun.png" alt="sun"></td>
+                    <td><img src="images/sun.png" alt="sun"></td>
+                </tr>
+                <tr>
+                    <td>89°F</td>
+                    <td>87°F</td>
+                    <td>78°F</td>
+                    <td>75°</td>
+                    <td>72°F</td>
+                </tr>
+            </table>
+        </article>
+        <article>
+            <img src="images/article.jpg" alt="family-preston">
+            <p>Preston Article</p>
+            <p>Mauris viverra fermentum dui. Aenean eget pretium magna. Vestibulum et ipsum a orci malesuada vulputate.
+                Pellentesque vulputate purus nec ipsum hendrerit, quis sagittis ipsum vehicula. Ut vestibulum diam eget
+                nisi facilisis, bibendum iaculis libero tristique. Vestibulum vestibulum dolor in libero venenatis
+                scelerisque. Nullam ut dapibus metus. Sed vestibulum dui at sapien vulputate tristique. Cras mollis
+                consectetur dui, at semper felis faucibus quis. Vestibulum dui massa, consectetur a congue nec, sodales
+                quis velit. Etiam accumsan venenatis tellus, vel condimentum quam interdum non. Vestibulum dapibus eu
+                felis quis semper.</p>
+            <p>Nam eleifend sapien vitae sem commodo, in maximus dui aliquet. Orci varius natoque penatibus et magnis
+                dis parturient montes, nascetur ridiculus mus. Vestibulum rhoncus ac dui eget iaculis. Nunc molestie est
+                at est viverra vehicula. Aenean volutpat sodales commodo. Etiam ac metus a est viverra condimentum at at
+                dolor. Aenean porttitor lacus neque, non dignissim odio commodo quis. Mauris vel lacus elit. Aenean a
+                semper dui. Donec ac risus urna. Aliquam rhoncus dapibus mauris et cursus. Maecenas quis interdum
+                tortor, eget rhoncus magna.</p>
+        </article>
+        <article class="contact-information">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.72628277016!2d-111.91534437280939!3d42.09980531172421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263%2C%20USA!5e0!3m2!1sen!2smx!4v1612583199708!5m2!1sen!2smx"
+                width="400" height="300" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+            <p>
+                <b>Tell me the Weather</b>
+                <br>Cel:111-111-111
+                <br>tellmeweather@gmail.com
+                <br>Preston - Idaho
+                <br>
+                <a href="#"><img src="images/facebook.png" alt="logo-facebook"></a>
+                <a href="#"><img src="images/twitter.png" alt="logo-whatsapp"></a>
+                <a href="#"><img src="images/phone.png" alt="logo-twitter"></a>
+            </p>
+
+        </article>
+    </main>
+    <footer>
+        <p>
+            &copy; Abraham Espinosa G. | Mexico City | <a href="https://www.byui.edu/online" target="_blank">BYU-I</a>
+        </p>
+        <p id="date"></p>
+    </footer>
+    <script src="js/preston.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfontload.js"></script>
+</body>
+
+</html>
