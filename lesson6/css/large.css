@@ -31,12 +31,12 @@
     display: inline;
 }
 
-.contact-information div {
+article.contact-information div {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.contact-information div p{
+article.contact-information div p{
     margin-bottom: auto;
     margin-top: auto;
 }
