@@ -201,12 +201,12 @@ table tr td img {
 
 /* Contact Information */
 
-article.contact-information p img{
+article.contact-information div p img{
     width: 30px;
     height: auto;
 }
 
-article.contact-information {
+article.contact-information div {
     text-align: center;
 }
 
