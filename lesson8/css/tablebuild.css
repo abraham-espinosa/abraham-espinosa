@@ -15,7 +15,7 @@ td {
 }
 
 table tr {
-    background-color: #e7f0ed;
+    background-color: #e7ffed;
 }
 
 table thead tr th,
@@ -26,7 +26,7 @@ table tfoot tr td {
 }
 
 table tr:nth-child(even) {
-    background-color: #e7ffed;
+    background-color: #e7f0ed;
 }
 
 tbody tr:nth-child(6) td span{
