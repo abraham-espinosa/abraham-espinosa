@@ -14,7 +14,7 @@ Medium Views
         max-width: 900px;
     }
 
-    .forecast{
+    .forecast {
         display: block;
     }
 
@@ -26,5 +26,34 @@ Medium Views
         grid-template-columns: 1fr 1fr;
     }
 
+    /* --------------------------------------------------
+    Cards
+    -------------------------------------------------- */
+    div.cards section {
+        max-width: 600px;
+        margin: .5rem auto;
+        border: 1px solid #bbb;
+        box-shadow: 0 2px 15px rgb(192, 192, 192);
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    div.cards section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    div.cards section:nth-child(odd) img {
+        grid-column: 2;
+    }
+
+    div.cards section:nth-child(odd) div {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    div.cards section p {
+        padding: .75rem;
+    }
 
 }

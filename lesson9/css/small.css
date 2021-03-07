@@ -17,9 +17,7 @@ nav a {
     font-family: 'Ramabhadra', sans-serif;
 }
 
-main h2,
-main h3,
-main h4 {
+main h2, main h3, main h4{
     text-align: center;
     margin-top: 0;
 }
@@ -122,7 +120,7 @@ ul.navigation {
 }
 
 a.active {
-    color: rgb(251, 255, 0);
+    color: rgb(255, 192, 19);
     text-decoration: underline;
 }
 
@@ -139,12 +137,89 @@ main {
     max-width: 100%;
 }
 
+img {
+    height: auto;
+    width: 100%;
+    border-radius: 5px 5px 5px 5px;;
+}
+
+article{
+    padding: 3rem;
+    margin: 40px;
+    box-shadow: 0 2px 15px rgb(192, 192, 192);
+    border-radius: 5px 5px 5px 5px;
+}
+
+/* Hero Image */
+
+.hero{
+    margin: 10px auto;
+    position: relative;
+}
+
+.weather-summary p, .weather-summary h3{
+    margin: 0;
+} 
+
+.weather-summary{
+    position: absolute;
+    top: 25px;
+    left: 40px;
+    background: #36632d;
+	border: 1px solid #000;
+	padding: 1.5rem;
+	box-shadow: 0 0 30px #111;
+	opacity: .9;
+    color: #d4d4d4;
+}
+
+div.weather-summary p span{
+    color: rgb(0, 0, 0);
+}
+
+/* 5 Day Forecast */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid rgb(167, 167, 167);
+    width: 20%;
+}
+table tr td img {
+    height: 40px;
+    width: auto;
+}
+
+.forecast{
+    display: none;
+}
+
+/* Contact Information */
+
+article.contact-information div p img{
+    width: 30px;
+    height: auto;
+}
+
+article.contact-information div {
+    text-align: center;
+}
+
+iframe{
+    display: none;
+}
+
 /*-----------------------------------------
 Banner Message 
 -----------------------------------------*/
 #banner {
     text-align: center;
-    background-color: rgb(247, 188, 62);
+    background-color: rgb(235, 200, 100);
     padding: 10px;
 }
 
@@ -249,4 +324,36 @@ form input.submitButton {
 
 form input.submitButton:hover {
     background-color: #283845;
+}
+
+/* --------------------------------------------------
+Cards
+-------------------------------------------------- */
+div.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+div.cards p,
+div.cards h3 {
+    font-size: .85rem;
+}
+
+div.cards h2{
+    border-bottom: 1px solid black;
+    font-size: 1.5rem;
+}
+
+div.cards h3{
+    padding: 6px;
+}
+
+div.cards section img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin: 0 auto;
 }

@@ -55,4 +55,27 @@
     border-radius: 15px 15px 5px 5px;
   }
 
+  /* --------------------------------------------------
+  Cards
+  -------------------------------------------------- */
+  div.cards {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 12px;
+  }
+
+  div.cards section {
+    margin: 20px;
+    padding: 20px;
+    grid-template-columns: 1fr;
+    border-radius: 3px;
+  }
+
+  div.cards section:nth-child(odd) img {
+    grid-column: 1;
+  }
+
+  div.cards section:nth-child(odd) div {
+    grid-row: 2;
+  }
+
 }
