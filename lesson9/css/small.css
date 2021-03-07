@@ -333,8 +333,12 @@ div.cards {
     display: grid;
     grid-template-columns: 1fr;
     justify-content: center;
-    margin-bottom: 20px;
     text-align: center;
+}
+
+div.cards section{
+    box-shadow: 0 2px 15px rgb(192, 192, 192);
+    margin: 40px;
 }
 
 div.cards p,

@@ -32,7 +32,6 @@ Medium Views
     div.cards section {
         max-width: 600px;
         margin: .5rem auto;
-        border: 1px solid #bbb;
         box-shadow: 0 2px 15px rgb(192, 192, 192);
         display: flex;
         flex-wrap: wrap;
