@@ -1,0 +1,48 @@
+body{
+    text-align: center;
+}
+ 
+div.cards{
+display: grid;
+grid-template-columns: 1fr;
+box-shadow: 0 0 50px #777;
+border-radius: 4px;
+justify-items: center; 
+}
+
+div.cards section {
+    background-color: rgb(93, 124, 92);
+    border-radius: 4px;
+    margin: 15px auto;
+}
+
+div.cards section h2, h1 {
+    color: black;
+}
+
+img{
+    width: auto;
+    height: 300px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+footer{
+    margin-top: 20px;
+}
+
+@media only screen and (min-width: 35rem) {
+    div.cards{
+        grid-template-columns: 1fr 1fr;
+
+    }
+}
+
+@media only screen and (min-width: 64rem) {
+    div.cards{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    header {
+        font-size: 1.2rem;
+    }
+}
