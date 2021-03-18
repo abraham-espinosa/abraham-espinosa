@@ -150,6 +150,10 @@ article{
     border-radius: 5px 5px 5px 5px;
 }
 
+#idAPI{
+    display: none;
+}
+
 /* Hero Image */
 
 .hero{

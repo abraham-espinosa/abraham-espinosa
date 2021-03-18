@@ -41,7 +41,15 @@ if (dayOfWeek != 5) {
 /*-----------------------------------------------------------
 WATHER API
 --------------------------------------------------------- */
-const forecastAPI = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=46a8bd75a625e7e9e10f5de7b8a2ac4d'
+var page = document.getElementById("idAPI").textContent;
+if ( page == "Preston" || page == "Home") {
+    var idAPI = "5604473";
+} else if ( page == "Soda Springs" ){
+    var idAPI = "5585010";
+} else if ( page == "Fish Haven" ){
+    var idAPI = "5607916";
+}
+const forecastAPI = "https://api.openweathermap.org/data/2.5/forecast?id=" + idAPI + "&units=imperial&appid=46a8bd75a625e7e9e10f5de7b8a2ac4d";
 fetch(forecastAPI)
     .then(response => response.json())
     .then(jsObject => {
@@ -62,7 +70,7 @@ fetch(forecastAPI)
         }
     });
 
-const weatherAPI = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&appid=46a8bd75a625e7e9e10f5de7b8a2ac4d'
+const weatherAPI = "https://api.openweathermap.org/data/2.5/weather?id=" + idAPI + "&units=imperial&appid=46a8bd75a625e7e9e10f5de7b8a2ac4d";
 fetch(weatherAPI)
 .then((response) => response.json())
 .then((jsObject) => {
