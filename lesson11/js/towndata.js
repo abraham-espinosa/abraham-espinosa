@@ -25,13 +25,13 @@ fetch(requestURL)
 
         if (towns[i].name == 'Fish Haven') {
           img.setAttribute('src', 'images/fish-medium.jpg');
-          img.setAttribute('alt', towns[1].name + ' landscape ');
+          img.setAttribute('alt', 'fish haven landscape ');
         } else if (towns[i].name == 'Preston') {
           img.setAttribute('src', 'images/preston-medium.jpg');
-          img.setAttribute('alt', towns[1].name + ' landscape ');
+          img.setAttribute('alt', 'preston landscape ');
         } else if (towns[i].name == 'Soda Springs') {
           img.setAttribute('src', 'images/soda-medium.jpg');
-          img.setAttribute('alt', towns[1].name + ' landscape ');
+          img.setAttribute('alt', 'soda springs landscape ');
         }
          
         card.appendChild(img);
