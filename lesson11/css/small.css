@@ -17,7 +17,9 @@ nav a {
     font-family: 'Ramabhadra', sans-serif;
 }
 
-main h2, main h3, main h4{
+main h2,
+main h3,
+main h4 {
     text-align: center;
     margin-top: 0;
 }
@@ -83,7 +85,7 @@ nav {
     background-color: #306630;
     border-radius: 0 0 2px 2px;
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 0;
 }
 
 .navigation {
@@ -140,44 +142,61 @@ main {
 img {
     height: auto;
     width: 100%;
-    border-radius: 5px 5px 5px 5px;;
+    border-radius: 5px 5px 5px 5px;
+    ;
 }
 
-article{
+article {
     padding: 3rem;
     margin: 40px;
     box-shadow: 0 2px 15px rgb(192, 192, 192);
     border-radius: 5px 5px 5px 5px;
 }
 
-#idAPI{
+#idAPI {
     display: none;
 }
 
+main a:link { 
+    color: rgb(211, 3, 3) }
+
+main a:visited { 
+    color: rgb(0, 211, 0) 
+} 
+
+main a:hover, main a:focus { 
+    color: rgb(2, 2, 212) 
+}  
+
+main a:active { 
+    color: #ccc 
+} 
+
 /* Hero Image */
 
-.hero{
+.hero {
     margin: 10px auto;
     position: relative;
 }
 
-.weather-summary p, .weather-summary h3{
+.weather-summary p,
+.weather-summary h3 {
     margin: 0;
-} 
+}
 
-.weather-summary{
+.weather-summary {
     position: absolute;
     top: 25px;
     left: 40px;
     background: #36632d;
-	border: 1px solid #000;
-	padding: 1.5rem;
-	box-shadow: 0 0 30px #111;
-	opacity: .9;
-    color: #d4d4d4;
+    border: 1px solid #000;
+    padding: 1.5rem;
+    box-shadow: 0 0 30px #111;
+    opacity: .9;
+    color: #ffffff;
 }
 
-div.weather-summary p span{
+div.weather-summary p span {
     color: rgb(0, 0, 0);
 }
 
@@ -185,12 +204,15 @@ div.weather-summary p span{
     text-transform: capitalize;
 }
 
-#icon{
+#icon {
     float: right;
     -webkit-filter: drop-shadow(7px 7px 7px #111);
     filter: drop-shadow(7px 7px 7px #111);
     width: 50px;
     height: auto;
+}
+picture.hero img{
+    object-fit: cover;
 }
 
 /* 5 Day Forecast */
@@ -206,6 +228,7 @@ td {
     border-bottom: 1px solid rgb(167, 167, 167);
     width: 20%;
 }
+
 table tr td img {
     height: 40px;
     width: auto;
@@ -213,13 +236,13 @@ table tr td img {
     filter: drop-shadow(7px 7px 7px #111);
 }
 
-.forecast{
+.forecast {
     display: none;
 }
 
 /* Contact Information */
 
-article.contact-information div p img{
+article.contact-information div p img {
     width: 30px;
     height: auto;
 }
@@ -228,8 +251,13 @@ article.contact-information div {
     text-align: center;
 }
 
-iframe{
+iframe {
     display: none;
+}
+
+main>h2 {
+    margin-top: 50px;
+    margin-bottom: 0;
 }
 
 /*-----------------------------------------
@@ -354,7 +382,7 @@ div.cards {
     text-align: center;
 }
 
-div.cards section{
+div.cards section {
     box-shadow: 0 2px 15px rgb(192, 192, 192);
     margin: 40px;
 }
@@ -364,18 +392,35 @@ div.cards h3 {
     font-size: .85rem;
 }
 
-div.cards h2{
+div.cards h2 {
     border-bottom: 1px solid black;
     font-size: 1.5rem;
 }
 
-div.cards h3{
+div.cards h3 {
     padding: 6px;
 }
 
 div.cards section img {
     width: 100%;
-    height: auto;
+    height: 250px;
     border-radius: 4px;
     margin: 0 auto;
+    object-fit: cover;
+}
+
+/* --------------------------------------------------
+Events
+-------------------------------------------------- */
+
+div.events {
+    box-shadow: 0 2px 15px rgb(192, 192, 192);
+    margin: 40px;
+    text-align: center;
+}
+
+div.events section {
+    background-color: #283845;
+    color: #ffffff;
+    border-radius: 4px;
 }

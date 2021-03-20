@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/small.css" />
     <link rel="stylesheet" href="css/medium.css" />
     <link rel="stylesheet" href="css/large.css" />
+
 <body>
     <div id="banner">Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</div>
     <header>
@@ -37,15 +38,15 @@
         <h2>Fish Haven</h2>
         <div class="hero">
             <picture class="hero">
-                <source srcset="images/smallSky.jpg" media="(max-width: 500px)">
-                <source srcset="images/mediumSky.jpg" media="(max-width: 800px)">
-                <source srcset="images/largeSky.jpg" media="(max-width: 1100px)">
-                <img src="images/largeSky.jpg" alt="preston">
+                <source srcset="images/fish-small.jpg" media="(max-width: 500px)">
+                <source srcset="images/fish-medium.jpg" media="(max-width: 800px)">
+                <source srcset="images/fish-large.jpg" media="(max-width: 1100px)">
+                <img src="images/fish-large.jpg" alt="fish haven">
             </picture>
             <div class="weather-summary">
-                <h3>Weather Summary</h3> 
+                <h3>Weather Summary</h3>
                 <p>Currently: <span id="currently">N/A</span></p>
-                <img id="icon" src="#" alt="current-weather"> 
+                <img id="icon" src="#" alt="current-weather">
                 <p>Temperature: <span id="temp">49</span></p>
                 <p>Wind Chill: <span id="windchill"></span></p>
                 <p>Humidity: <span id="huminity">69%</span></p>
@@ -78,30 +79,25 @@
                 </tr>
             </table>
         </article>
+        <div class="events"></div>
         <article>
-            <h2>Preston Article</h2>
-            <img src="images/article.jpg" alt="family-preston">
-            <p>Mauris viverra fermentum dui. Aenean eget pretium magna. Vestibulum et ipsum a orci malesuada vulputate.
-                Pellentesque vulputate purus nec ipsum hendrerit, quis sagittis ipsum vehicula. Ut vestibulum diam eget
-                nisi facilisis, bibendum iaculis libero tristique. Vestibulum vestibulum dolor in libero venenatis
-                scelerisque. Nullam ut dapibus metus. Sed vestibulum dui at sapien vulputate tristique. Cras mollis
-                consectetur dui, at semper felis faucibus quis. Vestibulum dui massa, consectetur a congue nec, sodales
-                quis velit. Etiam accumsan venenatis tellus, vel condimentum quam interdum non. Vestibulum dapibus eu
-                felis quis semper.</p>
-            <p>Nam eleifend sapien vitae sem commodo, in maximus dui aliquet. Orci varius natoque penatibus et magnis
-                dis parturient montes, nascetur ridiculus mus. Vestibulum rhoncus ac dui eget iaculis. Nunc molestie est
-                at est viverra vehicula. Aenean volutpat sodales commodo. Etiam ac metus a est viverra condimentum at at
-                dolor. Aenean porttitor lacus neque, non dignissim odio commodo quis. Mauris vel lacus elit. Aenean a
-                semper dui. Donec ac risus urna. Aliquam rhoncus dapibus mauris et cursus. Maecenas quis interdum
-                tortor, eget rhoncus magna.</p>
+            <h2>Idaho Chinese Organization president: 'Love and understanding is the key'</h2>
+            <img src="images/article-fish.jpg" alt="family-preston">
+            <p>Idaho's Asian community is reeling from the shooting at an Atlanta spa on Tuesday that killed eight
+                people, including six of Asian decent. Yong Gao, president of the Idaho Chinese Organization, called on
+                Idaho's leaders to speak out against acts of violence targeting Asian-Americans. In a statement, the ICO
+                wrote that crimes against Asian-Americans rose 150 percent in 2020, <a
+                    href="https://idahonews.com/news/local/idaho-chinese-organization-president-love-and-understanding-is-the-key"
+                    target="_blank">click here to read more...</a>
+            </p>
         </article>
         <article class="contact-information">
             <h2>Contact Information</h2>
             <div>
                 <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.72628277016!2d-111.91534437280939!3d42.09980531172421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263%2C%20USA!5e0!3m2!1sen!2smx!4v1612583199708!5m2!1sen!2smx"
-                width="400" height="300" style="border:0;" allowfullscreen="" aria-hidden="false"
-                tabindex="0"></iframe>
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.72628277016!2d-111.91534437280939!3d42.09980531172421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263%2C%20USA!5e0!3m2!1sen!2smx!4v1612583199708!5m2!1sen!2smx"
+                    width="400" height="300" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>
                 <p>
                     <b>Tell me the Weather</b>
                     <br>Cel:111-111-111
@@ -124,7 +120,7 @@
     <script src="js/preston.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="js/webfontload.js"></script>
-    <script src="js/towndata.js"></script>
+    <script src="js/events.js"></script>
 </body>
 
 </html>

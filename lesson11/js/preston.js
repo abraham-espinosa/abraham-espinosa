@@ -56,7 +56,6 @@ fetch(forecastAPI)
         console.log(jsObject);
 
         const forecast = jsObject.list.filter(x => x.dt_txt.includes('18:00:00'));
-        console.log(forecast);
 
         const weekdays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
         for (let day = 0; day < forecast.length; day++) {
