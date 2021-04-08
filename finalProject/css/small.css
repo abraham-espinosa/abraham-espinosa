@@ -7,6 +7,7 @@ body {
     max-width: 100%;
     margin: 0 auto;
     color: #000000;
+    background-color: #FAFAFA;
 }
 
 h1,
@@ -29,8 +30,8 @@ Header & Footer
 -----------------------------------------*/
 header,
 footer {
-    background-color: #283845;
-    color: #ffffff;
+    background-color: black;
+    color: #FAFAFA;
 }
 
 /*header*/
@@ -60,6 +61,7 @@ header img {
     letter-spacing: 1pt;
     margin-left: 20px;
     font-size: .9rem;
+    font-weight: bolder;
 }
 
 /*footer*/
@@ -82,7 +84,7 @@ Navegation Menu
 -----------------------------------------*/
 
 nav {
-    background-color: #FFFFFD;
+    background-color: black;
     border-radius: 0 0 2px 2px;
     margin: 0 auto;
     margin-bottom: 0;
@@ -109,8 +111,8 @@ ul.navigation {
 .navigation a {
     display: block;
     text-decoration: none;
-    color: #444458;
-    padding: 0.60rem;
+    color: #FAFAFA;
+    padding: 1rem;
     font-size: .95rem;
     text-align: left;
 }
@@ -123,7 +125,7 @@ ul.navigation {
 
 a.active {
     color: #24D000;
-    text-decoration: underline;
+    font-weight: bolder;
 }
 
 .responsive li {
@@ -137,67 +139,85 @@ Main
 main {
     margin: 0 auto;
     max-width: 100%;
+
 }
 
 img {
     height: auto;
     width: 100%;
-    border-radius: 5px 5px 5px 5px;
-    ;
+
 }
 
 article {
     padding: 1rem;
     margin: 20px;
-    box-shadow: 0 2px 15px rgb(192, 192, 192);
-    border-radius: 5px 5px 5px 5px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 3px 3px 3px 3px;
+}
+
+article h2{
+    margin-bottom: 60px;
 }
 
 #idAPI {
     display: none;
 }
 
-main a:link { 
-    color: rgb(211, 3, 3) }
+main a:link {
+    color: rgb(211, 3, 3)
+}
 
-main a:visited { 
-    color: rgb(0, 211, 0) 
-} 
+main a:visited {
+    color: rgb(0, 211, 0)
+}
 
-main a:hover, main a:focus { 
-    color: rgb(2, 2, 212) 
-}  
+main a:hover,
+main a:focus {
+    color: rgb(2, 2, 212)
+}
 
-main a:active { 
-    color: #ccc 
-} 
+main a:active {
+    color: #ccc
+}
 
 /* Hero Image */
 
 .hero {
-    margin: 10px auto;
+    margin: 0 auto;
     position: relative;
-}
-
-.weather-summary p,
-.weather-summary h3 {
-    margin: 0;
-}
-
-.weather-summary {
-    position: absolute;
-    top: 25px;
-    left: 40px;
-    background: #36632d;
-    border: 1px solid #000;
-    padding: 1.5rem;
-    box-shadow: 0 0 30px #111;
-    opacity: .9;
+    text-align: center;
     color: #ffffff;
 }
 
-div.weather-summary p span {
-    color: rgb(0, 0, 0);
+.home-join {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.home-join * {
+    margin: 1.5rem;
+    font-size: 1.1rem;
+}
+
+.home-join a {
+    text-decoration: none;
+    background-color: rgb(27, 26, 26);
+    border: none;
+    color: #ffffff;
+    margin: 20px;
+    padding: 8px 20px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 8px;
+}
+
+.home-join a:hover {
+    background-color: #FAFAFA;
+    color: rgb(27, 26, 26);
+    font-weight: bolder;
 }
 
 #currently {
@@ -211,7 +231,8 @@ div.weather-summary p span {
     width: 50px;
     height: auto;
 }
-picture.hero img{
+
+picture.hero img {
     object-fit: cover;
 }
 
@@ -423,4 +444,39 @@ div.events section {
     background-color: #283845;
     color: #ffffff;
     border-radius: 4px;
+}
+
+/* --------------------------------------------------
+Home
+-------------------------------------------------- */
+
+div.businesses div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 1px solid rgb(167, 167, 167);
+    background-color: #000000;
+    color: #FAFAFA;
+}
+
+div.businesses div p {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: bolder;
+}
+
+.municipality div{
+    border: 1px solid rgb(167, 167, 167);
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #000000;
+    color: #FAFAFA;
+}
+
+.purpose{
+    text-align: center;
+}
+.futureEvents{
+    text-align: center;
 }

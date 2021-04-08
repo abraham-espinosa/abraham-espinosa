@@ -1,0 +1,39 @@
+{
+    "organizations": [
+      {
+        "name": "Uber Bike",
+        "yearFounded": 2017,
+        "webSite": "https://www.uber.com/be/en/ride/uber-bike"
+      },
+      {
+        "name": "Mobike",
+        "yearFounded": 2015,
+        "webSite": "https://mobike.com/global"
+      },
+      {
+        "name": "Lime Electric",
+        "yearFounded": 2017,
+        "webSite": "https://www.li.me/electric-scooter"
+      },
+      {
+        "name": "Tocino & Cafe",
+        "yearFounded": 2010,
+        "webSite": "N/A"
+      },
+      {
+        "name": "Don Tuch",
+        "yearFounded": 2021,
+        "webSite": "https://dontuch.com"
+      },
+      {
+        "name": "Don Kebab",
+        "yearFounded": 2007,
+        "webSite": "https://www.donkebab.mx/"
+      },
+      {
+        "name": "Telar",
+        "yearFounded": 2019,
+        "webSite": "https://www.telarmx.com/"
+      }
+    ]
+  }

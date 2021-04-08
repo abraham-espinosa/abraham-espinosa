@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Join us | Mexico Trade</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Mexico Trade" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+
+<body>
+    <header>
+        <picture>
+            <img src="images/logo.png" alt="logo-cloud-weather" />
+        </picture>
+        <section class="headings">
+            <h1>Mexico Trade</h1>
+            <p class="phrase">Making the impossible, possible!</p>
+        </section>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#">&#9776; Menu</a></li>
+            <li><a  href="index.html">Home</a></li>
+            <li><a href="mexicocity.html">Mexico City</a></li>
+            <li><a class="active" href="join.html">Join us</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="hero">
+        <picture class="hero-img">
+            <img src="images/join-hero.jpg" alt="independence angel">
+        </picture>
+        <div class="home-join">
+            <h1>Join us!</h1>
+            <p>Your company will reach imaginable limits.</p>
+        </div>
+    </div>
+    <main>
+        <h2>Camber of Commerce</h2>
+        <form method="GET" action="thanks.html">
+            <fieldset>
+                <legend>Application Information</legend>
+                <div class="textRequired">* required</div>
+                <label class="top">First Name * <input type="text" name="fullname" required pattern="[A-Za-z ]{5,}"></label>
+                <label class="top">Last Name * <input type="text" name="fullname" required pattern="[A-Za-z ]{5,}"></label>
+                <label class="top">Title <input type="text" name="fullname"  pattern="[A-Za-z ]{5,}"></label>
+                <label class="top">Email *<input type="email" name="email" placeholder="myemail@gmail.com" required></label>
+                <label class="top">Phone <input type="tel" name="phone" placeholder="5525874587"></label>
+                <label class="top">Business Name * <input type="text" name="bName"  required></label>
+                <label class="top">Business Address <input type="text" name="bAddress"></label>
+                <label class="top">Business Website <input type="text" name="bWebsite"></label>
+                <label class="top">Business Description <input type="text" name="bDescription"></label>
+                <label class="top">Membership Level
+                    <select name="memberlevel">
+                        <option selected disabled>Select Level ...</option>
+                        <option value="non">Non-profit ($100)</option>
+                        <option value="bronze">Bronze ($200)</option>
+                        <option value="silver">Silver ($400)</option>
+                        
+                        <option value="Gold">Gold ($1000)</option>
+                    </select>
+                </label>
+            </fieldset>
+            <input type="submit" value="Submit" class="submitButton">
+        </form>
+    </main>
+    <footer>
+        <p>
+            &copy; Mexico Trade | Mexico City </a>
+        </p>
+        <p id="date"></p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfontload.js"></script>
+</body>
+</html>
