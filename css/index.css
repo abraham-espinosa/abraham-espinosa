@@ -13,16 +13,15 @@ footer {
     color: #ffff;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    background-color: rgb(67, 86, 114);
-    border-radius: 8px 8px 8px 8px;
+    background-color: rgb(51, 61, 71);
+    border-radius: 3px 3px 3px 3px;
     padding: 1rem;
 }
 
 header img {
     width: 170px;
     height: auto;
-    box-shadow: 1px 1px 30px rgb(80, 78, 78);
-    border-radius: 8px 8px 8px 8px;
+    border-radius: 3px 3px 3px 3px;
     float: right;
 }
 
