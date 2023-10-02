@@ -2,6 +2,7 @@ body {
     font-size: 16px;
     font-family: 'Inter', sans-serif;
     color: rgb(0, 0, 0);
+    background-color: rgb(242, 238, 229)
 }
 
 h1,h2,h3{
@@ -10,10 +11,7 @@ h1,h2,h3{
 
 header,
 footer {
-    color: #ffff;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-    background-color: rgb(51, 61, 71);
     border-radius: 3px 3px 3px 3px;
     padding: 1rem;
 }
@@ -34,6 +32,10 @@ footer {
 
 footer a {
     color: rgb(255, 174, 0);
+}
+
+footer{
+    text-align: center;
 }
 
 h2{
