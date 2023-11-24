@@ -36,16 +36,16 @@ footer{
     text-align: center;
 }
 
-h2{
+h2, h3{
     border-bottom: 1px solid rgb(138, 138, 138);
 }
 
 p {
-    margin-top: 1rem;
+    margin: 0px
 }
 
 main{
-    margin-top: 5rem;
+    margin-top: 1rem;
 }
 
 .subtitle{
@@ -54,4 +54,21 @@ main{
 
 li{
     margin-top: 1rem;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    padding: 10px;
+    }
+
+.item {
+      text-align: center;
+      padding: 20px 0;
+      font-size: 30px;
+}
+
+article{
+    margin-bottom: 4rem;
 }
