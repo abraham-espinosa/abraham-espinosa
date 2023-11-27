@@ -1,0 +1,22 @@
+{
+    "projects": [
+      {
+        "title": "Disney Movies API",
+        "description": "API that gets top disney movies and can create reviews.",
+        "urlSite": "https://abrahameg-movies.onrender.com",
+        "technologies": "Java, SpringBoot & MongoDB"
+      },
+      {
+        "title": "Mexico City",
+        "description": "Website for my local city that promotes the area's attractions, fosters business networking, and attracts additional business and people.",
+        "urlSite": "",
+        "technologies": "JavaScript, HTML & CSS"
+      },
+      {
+        "title": "Palmar Shop",
+        "description": "Web application for a small business that sells second-hand products, accepts payment, and manage purchases.",
+        "urlSite": "https://palmar-shop.onrender.com",
+        "technologies": "JavaScript, Node.js, Express.js & MongoDB"
+      }
+    ]
+  }

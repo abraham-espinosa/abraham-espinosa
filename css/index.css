@@ -78,4 +78,29 @@ article{
     .wrapper{
         grid-template-columns: auto;
     }
+    article div.cards  {
+        display: grid;
+
+        grid-template-columns: auto;    
+    }
+}
+
+
+/* CARDS */
+
+div.cards section {
+    text-align: center;
+    border: .1rem solid #afafaf;
+    border-radius: .1rem;
+    padding: .7rem;
+}
+
+div.cards  {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2rem;
+}
+
+div.cards section p {
+    padding: .75rem;
 }
