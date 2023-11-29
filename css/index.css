@@ -1,3 +1,6 @@
+/* ----------------------------------------------------------------
+MAIN ELEMENTS
+-----------------------------------------------------------------*/
 body {
     font-size: 1.2rem;
     color: rgb(0, 0, 0);
@@ -5,8 +8,38 @@ body {
     letter-spacing: .05rem;
 }
 
+header,
+main {
+    max-width: 100%;
+    padding: .8rem;
+}
+
+footer{
+    text-align: center;
+    padding: 1.5rem;
+}
+
+article{
+    margin-bottom: 4rem;
+}
+
+p {
+    margin: 0px
+}
+
 h1,h2,h3{
     font-family: Times, "Times New Roman", Georgia, serif;
+}
+
+h2{
+    border-bottom: 1px solid rgb(138, 138, 138);
+}
+
+/* ----------------------------------------------------------------
+HEADER
+-----------------------------------------------------------------*/
+header {
+    margin-bottom: 2rem;
 }
 
 header img {
@@ -16,46 +49,16 @@ header img {
     border-radius: 5px;
 }
 
-header,
-main {
-    margin: 50px auto;
-    max-width: 800px;
-    padding: 1rem;
-}
-
-footer a {
-    color: rgb(255, 174, 0);
-}
-
-footer{
-    text-align: center;
-    padding: 1rem;
-}
-
-h2, h3{
-    border-bottom: 1px solid rgb(138, 138, 138);
-}
-
-p {
-    margin: 0px
-}
-
-main{
-    margin-top: 1rem;
-}
-
 .subtitle{
     font-size: 1.5rem;
 }
 
-
-
 .wrapper {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
     gap: 10px;
     padding: 5px;
-    }
+}
 
 .item {
       text-align: center;
@@ -64,128 +67,168 @@ main{
       margin: auto;
 }
 
-article{
-    margin-bottom: 4rem;
-}
-
-@media only screen and (max-width: 800px) {
-    .wrapper{
-        grid-template-columns: auto;
-    }
-    article div.cardsp  {
-        display: grid;
-
-        grid-template-columns: auto;    
-    }
-}
-
-
-/* CARDS */
-
-div.cardsp section {
-    text-align: center;
-    border: .1rem solid #afafaf;
-    border-radius: .5rem;
-    padding: .7rem;
-}
-
-div.cardsp  {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 2rem;
-}
-
-div.cardsp section p {
-    padding: .75rem;
-}
-
-/* CARDS */
-
-
-
-div.cardspr section,
-div.cardsfa section
- {
-    text-align: center;
-    border: .1rem solid #afafaf;
-    background-color: rgb(229, 229, 229);
-    border-radius: .5rem;
-    padding: .7rem;
-    height: 55px;
-    width: 6rem;
-}
-
-div.cardspr,
-div.cardsfa  {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 1rem;
-    
-}
-
-div.cardspr{
-    margin-bottom: 1.2rem;
-}
-
-
-div.cardspr section p,
-div.cardsfa section p  {
-    padding: .75rem;
-    font-family: monospace;
-    font-size: .9rem;
-}
-div.cardspr section img,
-div.cardsfa section img {
-    height: 30px;
-    width: auto;
-}
-
+/* ----------------------------------------------------------------
+NAVIGATION MENU
+-----------------------------------------------------------------*/
 nav {
     background-color: black;
     margin: 0 auto;
-    margin-bottom: 0;
+    max-width: 100%;
 }
-.navigation {
-    list-style: none;
-    padding: 0;
-    display: flex;
 
-}
 ul.navigation {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     text-transform: uppercase;
     font-family: Monospace;
 }
+
+.navigation {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
 .navigation li:first-child {
     display: block;
 }
+
 .navigation li {
     display: block;
     flex: 1 1 auto;
 }
+
 .navigation a {
     display: block;
     text-decoration: none;
     color: #FAFAFA;
-    padding: 1rem;
-    font-size: .95rem;
+    padding: 1rem .7rem 1rem .7rem;
+    font-size: .7rem;
     text-align: center;
 }
+
 .navigation a:hover {
     background-color:rgb(255, 255, 255);
     color: #000000;
     font-weight: bolder;
 }
-a.active {
-    color: rgb(58, 161, 84);
+
+/*-----------------------------------------------------------------
+ABOUT ME
+-----------------------------------------------------------------*/
+#aboutme p {
+    margin: .9rem;
+}
+
+/*-----------------------------------------------------------------
+DIV CARDS
+-----------------------------------------------------------------*/
+/* projects article */
+div.cards-project  {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 2rem;
+}
+
+div.cards-project section {
+    text-align: center;
+    background-color: rgb(243, 243, 243);
+    border-radius: .5rem;
+    padding: .7rem;
+}
+
+div.cards-project section p {
+    padding: .75rem;
+}
+div.cards-project section a {
+    color: #1277fc;
+    text-decoration: none;
+}
+
+div.cards-project section div a img {
+    height: 30px;
+    width: auto;
+    margin: 1rem .5rem .5rem .5rem;
+    filter: invert(35%) sepia(70%) saturate(3709%) hue-rotate(204deg) brightness(100%) contrast(98%);
+}
+
+/* skills article */
+div.cards-proficiency section,
+div.cards-familiar section
+ {
+    text-align: center;
+    background-color: rgb(243, 243, 243);
+    border-radius: .5rem;
+    padding: .4rem;
+    height: 55px;
+    width: 6rem;
+    margin: auto;
+}
+
+div.cards-proficiency,
+div.cards-familiar  {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1rem;
+}
+
+div.cards-proficiency{
+    margin-bottom: 1.2rem;
+}
+
+div.cards-proficiency section p,
+div.cards-familiar section p  {
+    font-family: monospace;
+    font-size: .9rem;
+}
+div.cards-proficiency section img,
+div.cards-familiar section img {
+    height: 30px;
+    width: auto;
+}
+
+.p-subtitle{
+    text-transform: uppercase;
+    font-family: monospace;
+    font-size: .85rem;
+    margin-bottom: .4rem;
+    letter-spacing: .1rem;
     font-weight: bolder;
 }
-.responsive li {
-    display: block;
+
+/* social links */
+div.social-links section{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1rem;
 }
 
+div.social-links section div a img {
+    height: 30px;
+    width: auto;
+    margin: 1rem .5rem .5rem .5rem;
+    filter: invert(35%) sepia(70%) saturate(3709%) hue-rotate(204deg) brightness(100%) contrast(98%);
+}
 
+div.social-links section div p {
+    font-family: monospace;
+    font-size: .9rem;
+}
+
+div.social-links section div{
+    background-color: rgb(243, 243, 243);
+    text-align: center;
+    border-radius: .5rem;
+    padding: .4rem;
+    height: 100px;
+    width: 6rem;
+    height: auto;
+    margin: auto;
+}
+
+/*-----------------------------------------------------------------
+SCROLL TO TOP BUTTON
+-----------------------------------------------------------------*/
 #scrollBtn {
     display: none;
     position: fixed;
@@ -197,8 +240,9 @@ a.active {
     background-color: rgb(0, 0, 0);
     color: white;
     cursor: pointer;
-    padding: .7rem;
-    border-radius: 4px;
+    padding: .6rem;
+    border-radius: 30px;
+    font-weight: bolder;
   }
   
   #scrollBtn:hover {
@@ -206,24 +250,70 @@ a.active {
     color: #000;
   }
 
+/* ----------------------------------------------------------------
+MEDIUM & LARGE SIZE
+-----------------------------------------------------------------*/
 @media only screen and (min-width: 37.5em) {
+    /* ----------------------------------------------------------------
+    MAIN ELEMENTS
+    -----------------------------------------------------------------*/
+    header,
+    main {
+    margin: 50px auto;
+    max-width: 800px;
+    padding: 1rem;
+    }
 
-    div.cardspr,
-    div.cardsfa  {
+    /* ----------------------------------------------------------------
+    HEADER
+    -----------------------------------------------------------------*/
+    .wrapper {
+        grid-template-columns: auto auto;
+    }
+
+    /* ----------------------------------------------------------------
+    NAVIGATION
+    -----------------------------------------------------------------*/
+    .navigation a {
+        padding: 1rem;
+        font-size: 1rem;
+    }
+
+    /* ----------------------------------------------------------------
+    DIV CARDS
+    -----------------------------------------------------------------*/
+    /* skills section */
+    div.cards-proficiency,
+    div.cards-familiar  {
         grid-template-columns: auto auto auto;   
     }
 
-    div.cardspr section img,
-    div.cardsfa section img {
-        height: 50px;
+    div.cards-proficiency section,
+    div.cards-familiar section
+    {
+        padding: .8rem;
+        height: 100px;
+        width: 12rem;
+    }
+
+    div.cards-proficiency section p,
+    div.cards-familiar section p  {
+        font-size: 1.2rem;
+    }
+
+    div.cards-proficiency section img,
+    div.cards-familiar section img {
+        height: 70px;
         width: auto;
     }
 
-    div.cardspr section,
-    div.cardsfa section
-    {
-        height: 80px;
-        width: 10rem;
+    .p-subtitle{
+        font-size: 1.2rem;
+    }
+
+    /* projects section */
+    div.cards-project section p {
+        padding: 0 10rem 1rem 10rem;
     }
 
 }

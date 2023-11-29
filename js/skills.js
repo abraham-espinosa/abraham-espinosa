@@ -21,7 +21,7 @@ fetch('js/skills.json')
             
             card.appendChild(div);
     
-            document.querySelector('div.cardspr').appendChild(card);      
+            document.querySelector('div.cards-proficiency').appendChild(card);      
             }else{
             title.innerHTML = skills[i].title;
             urlSvg.src = skills[i].urlSvg;
@@ -31,7 +31,7 @@ fetch('js/skills.json')
             
             card.appendChild(div);
     
-            document.querySelector('div.cardsfa').appendChild(card);
+            document.querySelector('div.cards-familiar').appendChild(card);
             }
     }
 

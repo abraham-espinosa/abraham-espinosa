@@ -2,20 +2,29 @@
     "projects": [
       {
         "title": "Disney Movies API",
-        "description": "API that gets top disney movies and can create reviews.",
-        "urlSite": "https://abrahameg-movies.onrender.com",
+        "description": "Get top disney movies and can create reviews.",
+        "githubUrl": "https://github.com/abraham-espinosa/movies-api",
+        "githubImg": "svg/github.svg",
+        "siteUrl": "https://abrahameg-movies.onrender.com",
+        "siteImg": "svg/link.svg",
         "technologies": "Java, SpringBoot & MongoDB"
       },
       {
         "title": "Mexico City",
-        "description": "Website for my local city that promotes the area's attractions, fosters business networking, and attracts additional business and people.",
-        "urlSite": "",
+        "description": "Local city website that promotes the area's attractions, fosters business networking, and attracts additional business and people.",
+        "githubUrl": "https://abrahameg-movies.onrender.com",
+        "githubImg": "svg/github.svg",
+        "siteUrl": "https://abrahameg-movies.onrender.com",
+        "siteImg": "svg/link.svg",
         "technologies": "JavaScript, HTML & CSS"
       },
       {
         "title": "Palmar Shop",
-        "description": "Web application for a small business that sells second-hand products, accepts payment, and manage purchases.",
-        "urlSite": "https://palmar-shop.onrender.com",
+        "description": "Small business that sells second-hand products, accepts payment, and manages purchases.",
+        "githubUrl": "https://github.com/abraham-espinosa/production-palmar",
+        "githubImg": "svg/github.svg",
+        "siteUrl": "https://palmar-shop.onrender.com",
+        "siteImg": "svg/link.svg",
         "technologies": "JavaScript, Node.js, Express.js & MongoDB"
       }
     ]
