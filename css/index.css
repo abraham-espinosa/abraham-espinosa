@@ -111,8 +111,8 @@ div.cardsfa section
     background-color: rgb(229, 229, 229);
     border-radius: .5rem;
     padding: .7rem;
-    height: 80px;
-    width: 10rem;
+    height: 55px;
+    width: 6rem;
 }
 
 div.cardspr,
@@ -136,7 +136,7 @@ div.cardsfa section p  {
 }
 div.cardspr section img,
 div.cardsfa section img {
-    height: 50px;
+    height: 30px;
     width: auto;
 }
 
@@ -205,3 +205,25 @@ a.active {
     background-color: #ffffff;
     color: #000;
   }
+
+@media only screen and (min-width: 37.5em) {
+
+    div.cardspr,
+    div.cardsfa  {
+        grid-template-columns: auto auto auto;   
+    }
+
+    div.cardspr section img,
+    div.cardsfa section img {
+        height: 50px;
+        width: auto;
+    }
+
+    div.cardspr section,
+    div.cardsfa section
+    {
+        height: 80px;
+        width: 10rem;
+    }
+
+}
