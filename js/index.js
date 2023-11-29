@@ -1,40 +1,40 @@
 document.getElementById('year').innerHTML = new Date().getFullYear();
 document.getElementById('last-update').innerHTML = "Last Updated: " + document.lastModified;
 
+// SCROLL TO TOP ----------------------------------------------------------------
+// Get element by id
+let scrollBtn = document.getElementById("scrollBtn");
 
-// FETCH THE DATA FROM projects.json
-fetch('js/projects.json')
-  .then(function (response) {
-    return response.json();
-  })
-  .then(function (jsonObject) {
-    console.table(jsonObject); 
-    const projects = jsonObject['projects'];
-    for (let i = 0; i < projects.length; i++) {
-        let card = document.createElement('section');
-        let title = document.createElement('h3');
-        let urlSite = document.createElement('a');
-        let description = document.createElement('p');
-        let technologies = document.createElement('p');
+window.onscroll = function() {scrollFunction()};
 
-        let div = document.createElement('div');
+function scrollFunction() {
+  if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
+    scrollBtn.style.display = "block";
+  } else {
+    scrollBtn.style.display = "none";
+  }
+}
 
-        title.textContent = projects[i].title;
-        description.innerHTML = projects[i].description;
-        technologies.innerHTML = 'Technologies: ' + projects[i].technologies;
-        urlSite.innerHTML = projects[i].urlSite;
-        urlSite.href = projects[i].urlSite;
-        urlSite.target = "_blank";
-         
-        div.appendChild(title);
-        div.appendChild(description);
-        div.appendChild(technologies);
-        div.appendChild(urlSite);
+// When the user clicks on the button, scroll to the top of the document
+function scrollTopFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
 
-        card.appendChild(div);
 
-        document.querySelector('div.cards').appendChild(card);
-    }
 
-  });
+/* -----------------------------------------------------------
+HAMBURGUER MENU
+--------------------------------------------------------- */
+const hambutton = document.querySelector('.ham');
+
+const mainnav = document.querySelector('.navigation')
+hambutton.addEventListener('click', () => {
+    mainnav.classList.toggle('responsive')
+}, false);
+// Medium View
+window.onresize = () => {   
+    if (window.innerWidth > 760) mainnav.classList.remove('responsive')
+};
+
 

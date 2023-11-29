@@ -9,7 +9,6 @@
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/index.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
 
 <body>
     <header class="wrapper">
@@ -21,31 +20,36 @@
             <img src="images/abraham-espinosa.jpeg" alt="Portrait of Abraham Espinosa" />
         </div>
     </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href=#aboutme>About Me</a></li>
+            <li><a href=#skills>Skills</a></li>
+            <li><a href=#projects>Projects</a></li>
+            <li><a href=#education>Education</a></li>
+        </ul>
+    </nav>
+    <button onclick="scrollTopFunction()" id="scrollBtn" title="Top">&#8593;</button>
     <main>
-        <article>
+        <article id="aboutme">
             <h2>About Me</h2>
-            <ul>
-                <li>Software engineering graduate with a firm understanding of programming and design principles, looking 
-                    for experience to grow.
-                    </li>
-                <li>Proficiency in object-oriented programming, problem-solving skills, and designing-building basic 
-                    relational databases.</li>
-                <li> Convert software requirements into operational code to pass and obtain data from a server including Java
-                    and JavaScript.</li>
-            </ul>
+            <div>
+                <p>I'm a Software Engineering Graduate with a firm understanding of programming and design principles, looking 
+                    for experience to grow. I'm proficient in object-oriented programming, problem-solving, and designing-building basic 
+                    relational databases.</p>
+            </div>
         </article>
-        <article>
+        <article id="skills">
             <h2>Skills</h2>
-            <p>Proficiency in HTML/CSS, JavaScript, SQL, Java, and Spring</p>
-            <p>Familiar with Python and PHP.</p>
+            <p>Proficiency</p>
+            <div class="cardspr"></div>
+            <p>Familiar</p>
+            <div class="cardsfa"></div>
         </article>
-        
-
-        <article>
+        <article id="projects">
             <h2>Recent Projects</h2>
-            <div class="cards"></div>
+            <div class="cardsp"></div>
         </article>
-        <article>
+        <article id="education">
             <h2>Education</h2>
             <p>Bachelor of Applied Science in Applied Technology</p>
             <p>Brigham Young University – Idaho | Mar 2018 – Jul 2023</p>
@@ -58,8 +62,9 @@
         </p>
         <p id="last-update"></p>
     </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="js/index.js"></script>
+    <script src="js/skills.js"></script>
+    <script src="js/projects.js"></script>
 </body>
 
 </html>

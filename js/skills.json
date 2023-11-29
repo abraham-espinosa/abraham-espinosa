@@ -1,0 +1,49 @@
+{
+    "skills": [
+      {
+        "title": "Java",
+        "urlSvg": "svg/java.svg",
+        "category": "Proficiency"
+      },
+      {
+        "title": "JavaScript",
+        "urlSvg": "svg/javascript.svg",
+        "category": "Proficiency"
+      },
+      {
+        "title": "SpringBoot",
+        "urlSvg": "svg/spring-boot.svg",
+        "category": "Proficiency"
+      },
+      {
+        "title": "SQL",
+        "urlSvg": "svg/sql.svg",
+        "category": "Proficiency"
+      },
+      {
+        "title": "HTML",
+        "urlSvg": "svg/html.svg",
+        "category": "Proficiency"
+      },
+      {
+        "title": "CSS",
+        "urlSvg": "svg/css.svg",
+        "category": "Proficiency"
+      },
+      {
+        "title": "React",
+        "urlSvg": "svg/react.svg",
+        "category": "Familiar"
+      },
+      {
+        "title": "PHP",
+        "urlSvg": "svg/php.svg",
+        "category": "Familiar"
+      },
+      {
+        "title": "Python",
+        "urlSvg": "svg/python.svg",
+        "category": "Familiar"
+      }
+    ]
+  }
