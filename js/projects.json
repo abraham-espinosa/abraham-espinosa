@@ -10,6 +10,15 @@
         "technologies": "Java, SpringBoot & MongoDB"
       },
       {
+        "title": "Disney Movies",
+        "description": "Disney Movies Website that consumes Disney Movies API to display top movies, previous reviews, and add new reviews.",
+        "githubUrl": "https://github.com/abraham-espinosa/disney-movies",
+        "githubImg": "svg/github.svg",
+        "siteUrl": "https://movies--charming-pothos-06e767.netlify.app/",
+        "siteImg": "svg/link.svg",
+        "technologies": "JavaScript, React, and CSS"
+      },
+      {
         "title": "Mexico City",
         "description": "Local city website that promotes the area's attractions, fosters business networking, and attracts additional business and people.",
         "githubUrl": "https://abrahameg-movies.onrender.com",
