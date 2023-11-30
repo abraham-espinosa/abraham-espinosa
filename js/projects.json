@@ -2,7 +2,7 @@
     "projects": [
       {
         "title": "Disney Movies API",
-        "description": "Get top disney movies and can create reviews.",
+        "description": "API that gets disney movies data, associated reviews, and can add new reviews.",
         "githubUrl": "https://github.com/abraham-espinosa/movies-api",
         "githubImg": "svg/github.svg",
         "siteUrl": "https://abrahameg-movies.onrender.com",
@@ -11,7 +11,7 @@
       },
       {
         "title": "Disney Movies",
-        "description": "Disney Movies Website that consumes Disney Movies API to display top movies, previous reviews, and add new reviews.",
+        "description": "Website that consumes Disney Movies API to display top movies, trailers, previous reviews, and add new reviews.",
         "githubUrl": "https://github.com/abraham-espinosa/disney-movies",
         "githubImg": "svg/github.svg",
         "siteUrl": "https://movies--charming-pothos-06e767.netlify.app/",
@@ -21,9 +21,9 @@
       {
         "title": "Mexico City",
         "description": "Local city website that promotes the area's attractions, fosters business networking, and attracts additional business and people.",
-        "githubUrl": "https://abrahameg-movies.onrender.com",
+        "githubUrl": "",
         "githubImg": "svg/github.svg",
-        "siteUrl": "https://abrahameg-movies.onrender.com",
+        "siteUrl": "",
         "siteImg": "svg/link.svg",
         "technologies": "JavaScript, HTML & CSS"
       },
