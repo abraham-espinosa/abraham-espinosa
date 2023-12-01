@@ -5,7 +5,7 @@
         "description": "API that gets disney movies data, associated reviews, and can add new reviews.",
         "githubUrl": "https://github.com/abraham-espinosa/movies-api",
         "githubImg": "svg/github.svg",
-        "siteUrl": "https://abrahameg-movies.onrender.com",
+        "siteUrl": "https://disneymoviesapi-xwpfeo27.b4a.run/",
         "siteImg": "svg/link.svg",
         "technologies": "Java, SpringBoot & MongoDB"
       },
