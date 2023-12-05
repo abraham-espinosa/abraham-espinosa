@@ -19,6 +19,15 @@
         "technologies": "JavaScript, React, and CSS"
       },
       {
+        "title": "Income & Expense Tracker",
+        "description": "Income and expense tracker application to track your income and expenses.",
+        "githubUrl": "https://github.com/abraham-espinosa/income-expense-tracker",
+        "githubImg": "svg/github.svg",
+        "siteUrl": "https://aeg-income-expense-tracker.netlify.app/",
+        "siteImg": "svg/link.svg",
+        "technologies": "JavaScript, HTML & CSS"
+      },
+      {
         "title": "Mexico City",
         "description": "Local city website that promotes the area's attractions, fosters business networking, and attracts additional business and people.",
         "githubUrl": "",
