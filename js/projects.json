@@ -5,7 +5,7 @@
         "description": "API that gets disney movies data, associated reviews, and can add new reviews.",
         "githubUrl": "https://github.com/abraham-espinosa/movies-api",
         "githubImg": "svg/github.svg",
-        "siteUrl": "https://disneymoviesapi-xwpfeo27.b4a.run/",
+        "siteUrl": "https://abrahameg-movies.onrender.com/",
         "siteImg": "svg/link.svg",
         "technologies": "Java, SpringBoot & MongoDB"
       },
@@ -14,7 +14,7 @@
         "description": "Website that consumes Disney Movies API to display top movies, trailers, previous reviews, and add new reviews.",
         "githubUrl": "https://github.com/abraham-espinosa/disney-movies",
         "githubImg": "svg/github.svg",
-        "siteUrl": "https://abrahameg-movies.onrender.com/",
+        "siteUrl": "https://abraham-espinosa-disney-movies.netlify.app/",
         "siteImg": "svg/link.svg",
         "technologies": "JavaScript, React, and CSS"
       },
