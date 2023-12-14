@@ -1,7 +1,9 @@
-<h1>
+<h3>
   hey there
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
-</h1>
+</h3>
+
+---
 
 ### About Me:
 - I'm a Software Engineering Graduate with a firm understanding of programming and design principles, looking for experience to grow.
