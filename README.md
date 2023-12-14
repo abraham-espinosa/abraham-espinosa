@@ -10,7 +10,6 @@
 
 - Convert software requirements into operational code to pass and obtain data from a server including Java and JavaScript.
 
-- :mailbox:How to reach me: [![Linkedin Badge](https://img.shields.io/badge/-kakbar-blue?style=flat&logo=Linkedin&logoColor=white)](www.linkedin.com/in/abraham-espinosa)
 ---
 
 ### Personal Portafolio  
