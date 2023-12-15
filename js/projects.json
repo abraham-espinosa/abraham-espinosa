@@ -14,7 +14,7 @@
         "description": "Website that consumes Disney Movies API to display top movies, trailers, previous reviews, and add new reviews.",
         "githubUrl": "https://github.com/abraham-espinosa/disney-movies",
         "githubImg": "svg/github.svg",
-        "siteUrl": "https://abraham-espinosa-disney-movies.netlify.app/",
+        "siteUrl": "https://disneymovies.onrender.com/",
         "siteImg": "svg/link.svg",
         "technologies": "JavaScript, React, and CSS"
       },
@@ -28,15 +28,6 @@
         "technologies": "JavaScript, HTML & CSS"
       },
       {
-        "title": "Mexico City",
-        "description": "Local city website that promotes the area's attractions, fosters business networking, and attracts additional business and people.",
-        "githubUrl": "",
-        "githubImg": "svg/github.svg",
-        "siteUrl": "",
-        "siteImg": "svg/link.svg",
-        "technologies": "JavaScript, HTML & CSS"
-      },
-      {
         "title": "Palmar Shop",
         "description": "Small business that sells second-hand products, accepts payment, and manages purchases.",
         "githubUrl": "https://github.com/abraham-espinosa/production-palmar",
@@ -44,6 +35,15 @@
         "siteUrl": "https://palmar-shop.onrender.com",
         "siteImg": "svg/link.svg",
         "technologies": "JavaScript, Node.js, Express.js & MongoDB"
+      },
+      {
+        "title": "Mexico City",
+        "description": "Local city website that promotes the area's attractions, fosters business networking, and attracts additional business and people.",
+        "githubUrl": "",
+        "githubImg": "svg/github.svg",
+        "siteUrl": "",
+        "siteImg": "svg/link.svg",
+        "technologies": "JavaScript, HTML & CSS"
       }
     ]
   }
