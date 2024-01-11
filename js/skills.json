@@ -11,11 +11,6 @@
         "category": "Proficiency"
       },
       {
-        "title": "Spring Boot",
-        "urlSvg": "svg/spring-boot.svg",
-        "category": "Proficiency"
-      },
-      {
         "title": "SQL",
         "urlSvg": "svg/sql.svg",
         "category": "Proficiency"
@@ -29,6 +24,11 @@
         "title": "CSS",
         "urlSvg": "svg/css.svg",
         "category": "Proficiency"
+      },
+      {
+        "title": "Spring Boot",
+        "urlSvg": "svg/spring-boot.svg",
+        "category": "Familiar"
       },
       {
         "title": "React",
