@@ -2,7 +2,7 @@
     "projects": [
       {
         "title": "Disney Movies",
-        "description": "Developed a full-stack web application that displays famous Disney movies and allows users to create movie reviews. Created a RESTful API enabling data to be stored in an online database and built a website to consume the RESTful API <a href='https://api-disneymovies.onrender.com'>api-disneymovies.onrender.com</a>.",
+        "description": "Developed a full-stack web application that displays famous Disney movies and allows users to create movie reviews. Created a RESTful API (GitHub: <a href='https://github.com/abraham-espinosa/disney-movies-api'>github.com/abraham-espinosa/disney-movies-api</a>, Live:<a href='https://api-disneymovies.onrender.com'>api-disneymovies.onrender.com</a>) enabling data to be stored in an online database and built a website to consume the RESTful API.",
         "githubUrl": "https://github.com/abraham-espinosa/disney-movies",
         "githubImg": "svg/github.svg",
         "siteUrl": "https://disneymovies.onrender.com",
