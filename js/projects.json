@@ -1,49 +1,49 @@
 {
     "projects": [
       {
-        "title": "Disney Movies API",
-        "description": "API that gets disney movies data, associated reviews, and can add new reviews.",
-        "githubUrl": "https://github.com/abraham-espinosa/disney-movies-api",
-        "githubImg": "svg/github.svg",
-        "siteUrl": "https://api-disneymovies.onrender.com",
-        "siteImg": "svg/link.svg",
-        "technologies": "Java, SpringBoot & MongoDB"
-      },
-      {
         "title": "Disney Movies",
-        "description": "Website that consumes Disney Movies API to display top movies, trailers, previous reviews, and add new reviews.",
+        "description": "Developed a full-stack web application that displays famous Disney movies and allows users to create movie reviews. Created a RESTful API enabling data to be stored in an online database and built a website to consume the RESTful API <a href='https://api-disneymovies.onrender.com'>api-disneymovies.onrender.com</a>.",
         "githubUrl": "https://github.com/abraham-espinosa/disney-movies",
         "githubImg": "svg/github.svg",
-        "siteUrl": "https://disneymovies.onrender.com/",
+        "siteUrl": "https://disneymovies.onrender.com",
         "siteImg": "svg/link.svg",
-        "technologies": "JavaScript, React, and CSS"
+        "technologies": "Java, SpringBoot, React, JavaScript, MongoDB"
+      },
+      {
+        "title": "Flowers E-commerce",
+        "description": "Developed an e-commerce website that allows users to authenticate and interact with products and services. Implemented a transactional email API service to reset the account password.",
+        "githubUrl": "https://github.com/abraham-espinosa/flowers-ecommerce",
+        "githubImg": "svg/github.svg",
+        "siteUrl": "#",
+        "siteImg": "svg/link.svg",
+        "technologies": "NodeJS, Express, EJS, Mailgun, MongoDB"
+      },
+      {
+        "title": "PHP Motors",
+        "description": " Constructed a dynamic website that allows users to authenticate and create reviews. Used sessions and cookies to log in.",
+        "githubUrl": "https://github.com/abraham-espinosa/phpmotors",
+        "githubImg": "svg/github.svg",
+        "siteUrl": "#",
+        "siteImg": "svg/link.svg",
+        "technologies": "PHP, MySQL, HTML/CSS"
+      },
+      {
+        "title": "Syphus Budget",
+        "description": "Developed a mobile application with a class team that assists users in tracking cash flow (income and expenses).",
+        "githubUrl": "#",
+        "githubImg": "svg/github.svg",
+        "siteUrl": "#",
+        "siteImg": "svg/link.svg",
+        "technologies": "Java, Firebase"
       },
       {
         "title": "Income & Expense Tracker",
-        "description": "Income and expense tracker application to track your income and expenses.",
+        "description": "Created a JavaScript application that tracks users’ income and expenses. Implemented localStorage property to save records in the browser.",
         "githubUrl": "https://github.com/abraham-espinosa/income-expense-tracker",
         "githubImg": "svg/github.svg",
         "siteUrl": "https://aeg-income-expense-tracker.netlify.app/",
         "siteImg": "svg/link.svg",
-        "technologies": "JavaScript, HTML & CSS"
-      },
-      {
-        "title": "Palmar Shop",
-        "description": "Small business that sells second-hand products, accepts payment, and manages purchases.",
-        "githubUrl": "https://github.com/abraham-espinosa/production-palmar",
-        "githubImg": "svg/github.svg",
-        "siteUrl": "https://palmar-shop.onrender.com",
-        "siteImg": "svg/link.svg",
-        "technologies": "JavaScript, Node.js, Express.js & MongoDB"
-      },
-      {
-        "title": "Mexico City",
-        "description": "Local city website that promotes the area's attractions, fosters business networking, and attracts additional business and people.",
-        "githubUrl": "",
-        "githubImg": "svg/github.svg",
-        "siteUrl": "",
-        "siteImg": "svg/link.svg",
-        "technologies": "JavaScript, HTML & CSS"
+        "technologies": "JavaScript, HTML/CSS"
       }
     ]
   }
