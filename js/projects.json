@@ -7,6 +7,8 @@
         "githubImg": "svg/github.svg",
         "siteUrl": "https://disneymovies.onrender.com",
         "siteImg": "svg/link.svg",
+        "youtubeUrl": "https://youtu.be/NikOaktiM8Q",
+        "youtubeImg": "svg/youtube.svg",
         "technologies": "Java, SpringBoot, React, JavaScript, MongoDB"
       },
       {
@@ -14,8 +16,10 @@
         "description": "Developed an e-commerce website that allows users to authenticate and interact with products and services. Implemented a transactional email API service to reset the account password.",
         "githubUrl": "https://github.com/abraham-espinosa/flowers-ecommerce",
         "githubImg": "svg/github.svg",
-        "siteUrl": "#",
+        "siteUrl": "",
         "siteImg": "svg/link.svg",
+        "youtubeUrl": "https://youtu.be/Y8fh4oB31TQ",
+        "youtubeImg": "svg/youtube.svg",
         "technologies": "NodeJS, Express, EJS, Mailgun, MongoDB"
       },
       {
@@ -23,8 +27,10 @@
         "description": " Constructed a dynamic website that allows users to authenticate and create reviews. Used sessions and cookies to log in.",
         "githubUrl": "https://github.com/abraham-espinosa/phpmotors",
         "githubImg": "svg/github.svg",
-        "siteUrl": "#",
+        "siteUrl": "",
         "siteImg": "svg/link.svg",
+        "youtubeUrl": "https://youtu.be/CkI6kdF47Fs",
+        "youtubeImg": "svg/youtube.svg",
         "technologies": "PHP, MySQL, HTML/CSS"
       },
       {
@@ -32,8 +38,10 @@
         "description": "Developed a mobile application with a class team that assists users in tracking cash flow (income and expenses).",
         "githubUrl": "#",
         "githubImg": "svg/github.svg",
-        "siteUrl": "#",
+        "siteUrl": "",
         "siteImg": "svg/link.svg",
+        "youtubeUrl": "https://youtu.be/epf8qTLXmHY",
+        "youtubeImg": "svg/youtube.svg",
         "technologies": "Java, Firebase"
       },
       {
@@ -43,6 +51,8 @@
         "githubImg": "svg/github.svg",
         "siteUrl": "https://aeg-income-expense-tracker.netlify.app/",
         "siteImg": "svg/link.svg",
+        "youtubeUrl": "https://youtu.be/Qd3eJQJHd3M",
+        "youtubeImg": "svg/youtube.svg",
         "technologies": "JavaScript, HTML/CSS"
       }
     ]

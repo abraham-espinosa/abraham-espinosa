@@ -26,6 +26,11 @@
         "category": "Proficiency"
       },
       {
+        "title": "Git",
+        "urlSvg": "svg/git.svg",
+        "category": "Proficiency"
+      },
+      {
         "title": "Spring Boot",
         "urlSvg": "svg/spring-boot.svg",
         "category": "Familiar"
@@ -43,6 +48,12 @@
       {
         "title": "Python",
         "urlSvg": "svg/python.svg",
+        "category": "Familiar"
+      }
+      ,
+      {
+        "title": "NoSQL",
+        "urlSvg": "svg/mongo.svg",
         "category": "Familiar"
       }
     ]
