@@ -1,12 +1,12 @@
 ### About Me <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
-- I'm a Software Engineering Graduate with a firm understanding of programming and design principles, looking for experience to grow.
-- Proficiency in object-oriented programming, problem-solving skills, and designing-building basic relational databases.
-- Convert software requirements into operational code to pass and obtain data from a server including Java and JavaScript.
+I'm a Software Engineering 💻 from Mexico City 🌎. I just gratuated from Brigham Young University - Idaho, looking for experience to grow.
+
+I am proficient in object-oriented programming, problem-solving, and designing-building basic relational databases.
 <br>
 
 ### Technologies:
-Java / JavaScript / SQL / SpringBoot 
-
+Proficiency: Java / JavaScript / SQL / HTML / CSS / Git  
+Familiar: Spring / React / PHP / Python / NoSQL
 <br>
 
 ### Personal Portafolio:
