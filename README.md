@@ -8,7 +8,7 @@ I am proficient in object-oriented programming, problem-solving, and designing-b
 
 ### Technologies:
 Proficiency: Java / JavaScript / SQL / HTML / CSS / Git  
-Familiar: Spring / React / PHP / Python / NoSQL
+Familiar: Spring / React / PHP / Python / NoSQL / C#
 <br>
 
 ### Personal Portafolio:
