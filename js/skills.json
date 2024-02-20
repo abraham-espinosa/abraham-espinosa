@@ -1,13 +1,18 @@
 {
     "skills": [
       {
-        "title": "Java",
-        "urlSvg": "svg/java.svg",
+        "title": "JavaScript",
+        "urlSvg": "svg/javascript.svg",
         "category": "Proficiency"
       },
       {
-        "title": "JavaScript",
-        "urlSvg": "svg/javascript.svg",
+        "title": "React",
+        "urlSvg": "svg/react.svg",
+        "category": "Proficiency"
+      },
+      {
+        "title": "Git",
+        "urlSvg": "svg/git.svg",
         "category": "Proficiency"
       },
       {
@@ -26,9 +31,19 @@
         "category": "Proficiency"
       },
       {
-        "title": "Git",
-        "urlSvg": "svg/git.svg",
-        "category": "Proficiency"
+        "title": "PHP",
+        "urlSvg": "svg/php.svg",
+        "category": "Familiar"
+      },
+      {
+        "title": "Java",
+        "urlSvg": "svg/java.svg",
+        "category": "Familiar"
+      },
+      {
+        "title": "NoSQL",
+        "urlSvg": "svg/mongo.svg",
+        "category": "Familiar"
       },
       {
         "title": "Spring Boot",
@@ -36,24 +51,8 @@
         "category": "Familiar"
       },
       {
-        "title": "React",
-        "urlSvg": "svg/react.svg",
-        "category": "Familiar"
-      },
-      {
-        "title": "PHP",
-        "urlSvg": "svg/php.svg",
-        "category": "Familiar"
-      },
-      {
         "title": "Python",
         "urlSvg": "svg/python.svg",
-        "category": "Familiar"
-      }
-      ,
-      {
-        "title": "NoSQL",
-        "urlSvg": "svg/mongo.svg",
         "category": "Familiar"
       }
     ]
