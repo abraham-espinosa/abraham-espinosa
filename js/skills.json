@@ -1,13 +1,18 @@
 {
     "skills": [
       {
+        "title": "PHP",
+        "urlSvg": "svg/php.svg",
+        "category": "Proficiency"
+      },
+      {
         "title": "JavaScript",
         "urlSvg": "svg/javascript.svg",
         "category": "Proficiency"
       },
       {
-        "title": "React",
-        "urlSvg": "svg/react.svg",
+        "title": "CodeIgniter4",
+        "urlSvg": "svg/ci4.svg",
         "category": "Proficiency"
       },
       {
@@ -21,6 +26,11 @@
         "category": "Proficiency"
       },
       {
+        "title": "NoSQL",
+        "urlSvg": "svg/mongo.svg",
+        "category": "Proficiency"
+      },
+      {
         "title": "HTML",
         "urlSvg": "svg/html.svg",
         "category": "Proficiency"
@@ -31,8 +41,13 @@
         "category": "Proficiency"
       },
       {
-        "title": "PHP",
-        "urlSvg": "svg/php.svg",
+        "title": "C#",
+        "urlSvg": "svg/c-sharp.svg",
+        "category": "Familiar"
+      },
+      {
+        "title": "Dotnet",
+        "urlSvg": "svg/dotnet.svg",
         "category": "Familiar"
       },
       {
@@ -41,18 +56,13 @@
         "category": "Familiar"
       },
       {
-        "title": "NoSQL",
-        "urlSvg": "svg/mongo.svg",
-        "category": "Familiar"
-      },
-      {
         "title": "Spring Boot",
         "urlSvg": "svg/spring-boot.svg",
         "category": "Familiar"
       },
       {
-        "title": "Python",
-        "urlSvg": "svg/python.svg",
+        "title": "React",
+        "urlSvg": "svg/react.svg",
         "category": "Familiar"
       }
     ]
