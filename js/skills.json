@@ -51,18 +51,13 @@
         "category": "Familiar"
       },
       {
+        "title": "NodeJS",
+        "urlSvg": "svg/node.svg",
+        "category": "Familiar"
+      },
+      {
         "title": "Java",
         "urlSvg": "svg/java.svg",
-        "category": "Familiar"
-      },
-      {
-        "title": "Spring Boot",
-        "urlSvg": "svg/spring-boot.svg",
-        "category": "Familiar"
-      },
-      {
-        "title": "React",
-        "urlSvg": "svg/react.svg",
         "category": "Familiar"
       }
     ]
