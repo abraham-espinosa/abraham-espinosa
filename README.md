@@ -5,8 +5,8 @@ I am a software developer with a Bachelor of Science in Applied Technology and m
 <br>
 
 ### Technologies:
-Proficiency: Java / JavaScript / SQL / HTML / CSS / Git  
-Familiar: Spring / React / PHP / Python / NoSQL / C#
+Proficiency: PHP / JavaScript / CodeIgniter 4 / SQL / NoSQL / HTML / CSS / Git  
+Familiar: C# / Dotnet / NodeJS / Java
 <br>
 
 ### Personal Portafolio:
